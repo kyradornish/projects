@@ -1,0 +1,116 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; /* makes padding not part of the entire width */   
+}
+
+
+body {
+	background: #a1bfb9;
+}
+
+
+h2 {
+	font-family: sans-serif;
+	color: #888;
+}
+
+a {
+	font-family: sans-serif;
+}
+
+ul li {
+	display: inline;
+	list-style-type: circle;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.round {
+	border-radius: 5px;
+}
+
+/* Grid */
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+	color: #fff;
+	border: 1px gray solid;
+}
+
+.column {
+    float: left;
+    margin-left: 5%;
+    padding: 5%;
+}
+
+.column:first-child {
+    margin-left: 0%;
+}
+
+.column.full {
+    width: 100%;
+}
+
+.column.three-fourths {
+    width: 73.75%
+}
+
+.column.two-thirds {
+    width: 65%; 
+}
+
+.column.half {
+    width: 47.5%; 
+}
+
+.column.one-third {
+    width: 30%; 
+}
+
+.column.one-fourth {
+    width: 21.25%; 
+}
+
+.nopadding {
+    padding: 0;
+}
+
+
+/*Alignment */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+
+
+/* Create Rows */
+.clearfix:before, .clearfix:after, { 
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both; /* gets rid of floating */
+}
+
+.clearfix { /* helps with IE */
+    *zoom: 1;
+}

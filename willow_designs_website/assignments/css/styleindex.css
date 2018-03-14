@@ -1,0 +1,116 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    background-image: url(../images/upfeathers.png);
+    font-family: Georgia, serif;
+}
+
+#wrap {
+    width: 750px;
+    margin: 0 auto;
+    background-color: #BFFFC5;
+}
+
+#header {
+    padding: 5px 10px;
+    background-color: #F0E68C;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+/*#nav {
+    padding: 5px 10px;
+    background-color: #750000;
+}
+
+#nav a {
+    color: white;   
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+} */
+
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none; 
+    background-color: #B22222;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc; 
+}
+
+#nav li {
+	float: left; 
+}
+
+#nav li a {
+		display: block;
+		padding: 8px 15px;
+		text-decoration: none;
+		font-weight: bold;
+		color: #fff;
+		border-right: 1px solid #ccc; 
+}
+
+#nav li a:hover {
+		color: #DAA520;
+		background-color: #fff; 
+}
+
+#main {
+    float: left;
+    width: 65%;
+    padding: 10px;
+    background-color: #FAFAD2;
+}
+
+.header {
+    align-content: center;
+    text-align: center;
+    border-bottom: 1px solid #F0E68C;
+}
+
+
+h2 {
+    margin: 0 0 1em;
+    text-align: inherit;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    padding: 5px;
+    background-color: #BFFFC5;
+}
+
+#footer {
+    clear: both;
+    padding: 5px 10px;
+    background:#750000;
+    color: white;
+}
+
+#footer p {
+    margin: 0;
+}
+
+* html #footer {
+    height:1px;
+}

@@ -1,0 +1,97 @@
+body {
+	background: lightgray;
+}
+
+/* Grid */
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.column {
+    float: left;
+    margin-left: 5%;
+    padding: 5%;
+}
+
+.column:first-child {
+    margin-left: 0%;
+}
+
+.column.full {
+    width: 100%;
+}
+
+.column.three-fourths {
+    width: 73.75%
+}
+
+.column.two-thirds {
+    width: 65%; 
+}
+
+.column.half {
+    width: 47.5%;   
+}
+
+.column.one-third {
+    width: 30%; 
+}
+
+.column.one-fourth {
+    width: 21.25%; 
+}
+
+.nopadding {
+    padding: 0;
+}
+
+
+/*Alignment */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+
+
+/* Create Rows */
+.clearfix:before, .clearfix:after, { 
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both; /* gets rid of floating */
+}
+
+.clearfix { /* helps with IE */
+    *zoom: 1;
+}
+
+/*Elements*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+	display: inline;
+}

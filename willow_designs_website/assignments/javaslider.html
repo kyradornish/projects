@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
+<head>
+	<title>Java Slider</title>
+	
+<!--JS-->	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<script type="text/javascript" src="jquery.nivo.slider.js"></script> 
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+	
+<!--Styles-->
+	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="demo/style.css" type="text/css" media="screen" />
+</head>
+	
+	
+<body>
+	
+	<div id="wrapper">
+		<div class="slider-wrapper theme-default">
+			<div id="slider" class="nivoSlider"> 
+				<img src="images/legs.jpg" data-thumb="images/legs.jpg" alt="" data-transition="fade"/> 
+				<a href="http://dev7studios.com"><img src="images/coverphoto.png" data-thumb="images/coverphoto.png" alt="" title="Cool cover photo" data-transition="fade"/></a> 
+				<img src="images/map.jpg" data-thumb="images/map.jpg" alt="" data-transition="fade"/> 
+				<img src="../images/arctictrianglebig.JPG" data-thumb="../images/arctictrianglebig.JPG" alt="" title="Arctic Triangle Necklace" data-transition="fade"/> 
+			</div>
+		</div>
+	</div>
+	
+
+</body>
+</html>

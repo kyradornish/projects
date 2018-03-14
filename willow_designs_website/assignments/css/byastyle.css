@@ -1,0 +1,276 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; /* tells box-sizing to work in different browsers */
+    box-sizing: border-box; /* makes padding not part of the entire width*/
+}
+
+
+html {
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 6em;
+    font-family: 'Brush Script MT', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px #333;
+    padding: 0;
+    margin: 0;
+}
+
+.rotate {
+    -webkit-transform: rotate(354deg);
+    -moz-transform: rotate(354deg);
+    -o-transform: rotate(354deg);
+    writing-mode: lr-tb;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: red;
+}
+
+
+/* Grid */
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.column {
+    float: left;
+    margin-left: 5%;
+    padding: 5%;
+}
+
+.column:first-child {
+    margin-left: 0%;
+}
+
+.column.full {
+    width: 100%;
+}
+
+.column.two-thirds {
+    width: 65%; 
+}
+
+.column.half {
+    width: 47.5%; 
+}
+
+.column.one-third {
+    width: 30%; 
+}
+
+.column.one-fourth {
+    width: 21.25; 
+}
+
+.nopadding {
+    padding: 0;
+}
+
+
+/* Create Rows */
+.clearfix:before, .clearfix:after, { 
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both; /* gets rid of floating */
+}
+
+.clearfix { /* helps with IE */
+    *zoom: 1;
+}
+
+/*Alignment*/
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/*Homepage Elements*/
+.backgroundimage {
+    background: url("../images/legs.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.logospace {
+    padding: 5%;
+}
+
+.beginbutton {
+    border: 3px solid white;
+    border-radius: 100%;
+    font-weight: 600;
+    padding: 6%;
+    text-align: center;
+}
+
+span {
+    font-size: 3em;
+    border: 4px solid white;
+    border-radius: 100%;
+    padding: 20%;
+    font-family: sans-serif;
+}
+
+/*top bar and footer*/
+.footer {
+    color: #fff;
+    background-color:rgba(217,217,217,.75);
+    height: 40px;
+    width: 100%;
+	position: fixed;
+	bottom:0;
+	left:0;
+    margin:0;
+    padding: 0 5px 0 5px;
+}
+
+
+.topbar{
+    color: #fff;
+    background-color:rgba(217,217,217,.75);
+    width: 100%;
+    height: 25px;
+    position: absolute;
+}
+
+input {
+    color: lightgray;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    font-size:1em;
+}
+
+.signinbutton {
+    background: #7f7f7f;
+    background-image: -webkit-linear-gradient(top, #7f7f7f, #8f8f8f);
+    background-image: -moz-linear-gradient(top, #7f7f7f, #8f8f8f);
+    background-image: -ms-linear-gradient(top, #7f7f7f, #8f8f8f);
+    background-image: -o-linear-gradient(top, #7f7f7f, #8f8f8f);
+    background-image: linear-gradient(to bottom, #7f7f7f, #8f8f8f);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 2px 2px 2px 2px;
+    margin-top: 5%;
+    text-decoration: none;
+}
+
+.signinbutton:hover {
+    background: #7f7f7f;
+    text-decoration: none;
+    color: red;
+}
+
+.signup-text-size {
+    font-size: 14px;
+}
+
+.breadcrumbspadding {
+    padding-left: 10px;
+}
+
+
+
+
+/*Begin elements*/
+.coverphoto {
+    background: url("../images/coverphoto.png");
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 3%;
+}
+
+.bigfont {
+    font-size: 9.7em;
+}
+
+.buttonband {
+    background: #6e9071;
+    height: 200px;
+}
+
+.smallbuttontext {
+    font-size: 0.75em;
+    color: white;
+    font-family: sans-serif;
+}
+
+.bigbuttontext {    
+    font-size: 2em;
+}
+
+
+.leftbutton {
+    width: 42.5%;
+    border: 4px solid white;
+    margin-top: 5%;
+    padding: 0%;
+    line-height: 70%;
+}
+
+.rightbutton {
+    width: 42.5%;
+    border: 4px solid white;
+    margin-top: 5%;
+    padding: 0%;
+}
+
+/*Destinations Elements*/
+.destinationsband {
+    background: #6e9071;
+    height: 70%;
+    padding-top: 4%;
+    background-size: cover;
+}
+
+.map {
+    background: url("../images/map.jpg");
+    background-size: cover;
+    margin: 0px;
+    height:500px;
+    padding: 0px;
+}
